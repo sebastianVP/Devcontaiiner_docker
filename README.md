@@ -2,17 +2,17 @@
 ---
 
 
-###ANSWER QUESTIONS LIKE THAT...
+### ANSWER QUESTIONS LIKE THAT...
 
 1. Why you should use DevContainers for your Geospatial Development...?
 2. I decided not to install anything related to python, such as conda, virtualenv or miniconda. 
    Instead, I opted for Git and Docker.
 
-###STEP BY STEP:###
+### STEP BY STEP:
 1. Install Docker and git
 
 
-#### PROCESO DE INSALAR EL REPOSITORIO####
+#### PROCESO DE INSALAR EL REPOSITORIO
 **Installation, me salieron errores para instalar los sources**
 $ sudo apt update\
 $ sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -20,14 +20,14 @@ $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 $ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 $ sudo apt-key adv --refresh-keys
 
-#### INSTALACION EN UBUNTU####
+#### INSTALACION EN UBUNTU
 **Despues de corregir:**
 
 1. $ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 2. $ sudo docker run hello-world
 
 
-###DONE
+### DONE
 $ sudo docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
