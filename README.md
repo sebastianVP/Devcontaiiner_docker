@@ -85,3 +85,11 @@ Mi carpeta donde quiero almacenar los archivos en mi sistema : /home/soporte/wor
 Carpeta donde se generan los nuevos archivos del contenedor: /home/jovyan/work
 
 docker run -it -p 8888:8888 -v /home/soporte/workspace/docker_env/projects:/home/jovyan/work jupyter/datascience-notebook
+##### COMANDOS DE PRUEBA
+Comandos basicos
+ 
+docker ps \
+docker images\
+docker info\
+docker version\
+docker run -it -p 8888:8888 -v /home/soporte/workspace/docker_env/projects:/home/jovyan/work jupyter/datascience-notebook
